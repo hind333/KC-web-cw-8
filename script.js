@@ -27,7 +27,7 @@ function search() {
 }
 
 // طبّق الخطوة 8 و 9 أسفل هذا الكومنت
-let randomIndex = Math.floor(Math.random)
+let randomIndex = Math.floor (Math.random() * grades.length);
 // طبّق الخطوة 10 أسفل هذا الكومنت
 
 random_grade_div.innerHTML = `<div>${grades[randomIndex]}</div>`;
